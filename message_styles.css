@@ -1,0 +1,84 @@
+body{
+	background-color:#ecf3f5;
+}
+
+#friends{
+	overflow-y: auto;
+	height: inherit;
+	width: inherit;
+	
+}
+
+ #onlinesection{
+		width: 300px;
+		margin-top: 8px;
+		display: inline-block;
+		height: 500px;
+		overflow-y: scroll;
+		border: 4px inset #eeeeee;
+		float: left;
+		background-image: url("images/background8.jpg");
+	overflow-y: scroll;
+	font-family: "Times New Roman";
+	font-size: 18px;
+	font-weight: 900;
+	padding-left: 5px;
+	padding-right: 5px;
+	color: green;
+ }
+ 
+ #message_conatainer{
+ 	width: 95%;
+ 	margin: 0px auto;
+ 	display:  inline-block;
+ }
+
+ #chatsection{
+	height: 500px;
+	width : 800px;
+/*	border : 5px inset #eeeeee;*/
+
+	margin-left: 15px;
+	margin-top: 5px;
+	padding-left: 0px;
+	float : left;
+	
+	
+	}
+#friend_name{  /* use the border below the friend name who is online Name */
+	height:60px;
+	border-bottom: 8px ridge #a8a8a8;
+	
+}
+#messagebody{
+	height: 300px;
+	width: 100%;
+/*	border : 1px solid red; */
+	overflow-y: auto;
+}
+
+#sendmessage{
+	padding  : 5px;
+	/*border : 1px  solid red; */
+	height : auto;
+		overflow-y: auto;	
+	}
+#messagebox{
+		border: 4px solid #d4d4aa;
+		}
+
+/* this is the copied code for the scroll bar styling ..... */
+::-webkit-scrollbar {
+    width: 12px;
+
+}
+ 
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+    border-radius: 10px;
+}
+ 
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.8); 
+}

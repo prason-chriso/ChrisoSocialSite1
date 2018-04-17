@@ -1,0 +1,49 @@
+
+.logo_img{	
+	height: 83px;
+	width: 150px;
+	float: left;
+	display: inline-block;
+	}
+#user_photo{
+	height: 83px;
+	float: left;
+	margin-left: 5px;
+	width: 83px;
+}
+#navigation{
+	height: 85px;
+	width: 100%;
+	font-size: 19px;
+	background-image: url('navigatorBack.jpg');
+	font-weight: bold;
+		}
+input#search_box{
+		margin-left: 10px;
+		height: 50px;
+		width: 500px;
+			background-color: #e6ffee;
+		font-size : 22px;
+	
+}
+input#button_go{
+	height: 50px;
+	width: 75px;
+	font-size: 20px;
+	margin-left: -5px;
+}
+
+div#search_div{
+	max-width : 600px;
+	float: left;
+	padding-top: 5px;
+	
+}
+div#hyperlink_div{
+	max-width: 500px;
+	float : left;
+	padding-top: 10px;
+}
+/*for the like comment and the share button */
+.LCS{
+}

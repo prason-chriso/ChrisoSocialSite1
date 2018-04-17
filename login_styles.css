@@ -1,0 +1,44 @@
+/*css styles for the login page */
+body{
+	font-family: verdana,georgia,sans-serif;
+	background-image:url("images/login_back2.jpg");
+}
+fieldset{
+		margin: 20px;
+		width: 200px;
+		border: 10px solid #5798aa;
+		border-radius: 10px;
+		margin-left :10%;
+		margin-top :13%;
+		padding: 20px;
+		text-align: left;
+		color: #303030;
+	}
+legend{
+		color: #000;
+		font-weight: bold;
+		background-color: #5798aa;
+		border: 4px solid #303030;
+		border-radius: 10px;
+		text-align:left;
+		font-size: 14px;
+
+	}
+input[type="text"],input[type="password"]{
+		
+		border-width: 1px;
+		background-color: #adebeb;
+		border-radius: 5px;
+		padding: 5px;
+		margin-bottom: 10px;
+		display: block;
+		}
+	
+input[type="text"]:focus,input[type="password"]:focus{
+	 width: 200px;
+    height: 30px;
+	font-size: 18px;
+	margin: 0 auto;
+ /*   transform: rotate(360deg);*/	
+	transition :2s;
+}

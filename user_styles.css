@@ -1,0 +1,131 @@
+body{
+	background-color: #ecf3f5;
+}
+div#profile_pic{
+	position: fixed;
+	height: 300px;
+	width:500px;
+	float:left;
+	border: 5px inset #e6ffee; 
+	position: relative;
+}
+#change_pic_info{
+	visibility: hidden;
+	position : absolute;
+	border: 1px solid red;
+	bottom: 1%;
+	width: 20%;
+	z-index: 2;
+}
+#change:active{
+	visibility: visible;
+}
+
+#user_img{
+	position: absolute;
+	height: inherit;
+	width: inherit;
+	left: 0%;
+	right: 2%;
+	}
+a#change{
+		position: absolute;
+		top:90%;
+		left: 30%;
+		color: #901101;
+		font-weight: bold;
+		z-index: 1;
+		font-size: 16px;
+
+	}
+textarea#status{
+	border: 5px dotted #bbbf99;
+	background-image: url("images/background8.jpg");
+	width: 400px;
+	font-size : 16px;
+	font-weight: bold;
+	color: #022192;
+	margin-left: 7px;
+	margin-top: 7px;
+	margin-right: 7px;
+	padding: 5px;
+	resize: none;
+	}
+
+.infotab{
+		height: 100px;
+		max-width: 150px;
+		font-size: 16px;
+		text-decoration: none;
+		text-indent : 2px;
+		
+}
+li{
+		display : inline;
+		list-style-type: none;
+		text-decoration : none ;
+		background-color: #cccccc;
+		border : 4px groove #ccc;
+		margin-right: 40px;
+		font-size: 28px;
+		background-image: url("images/background3.jpg");
+		
+	}
+#select_tab{
+	background-image: url("images/background6.jpg");
+	border: 3px inset #ccc;
+	width : 75%;
+}
+#user_rightbar{
+	background-image: url("images/background8.jpg");
+	float : right;
+	border: 4px inset #eeeeee;
+	background-color: #eeeeee;
+	height : 100%;
+	overflow-y: scroll;
+	font-family: "Times New Roman";
+	font-size: 18px;
+	font-weight: 900;
+	padding-left: 5px;
+	padding-right: 5px;
+	color: green;
+}
+#display_section {
+	border : 4px inset #eeeeee;
+	height : 100%;
+	width : 75%;
+	overflow :auto;
+	margin-top : 5px;
+}
+.personal {
+		border: none;
+		border-radius:3px 22px;
+		font-size: 20px;
+		font-weight: bold;
+		padding: 15px;
+		background-image: url("images/background5.jpg");
+		
+        
+}
+
+.tab_head{
+	width: inherit;
+	height: auto;
+	border-radius: 0px 8px 0px 32px;
+	font-size: 	19px;
+	font-weight: bold;
+	color: #029293;
+}
+::-webkit-scrollbar {
+    width: 16px;
+}
+ 
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+    border-radius: 5px;
+}
+ 
+::-webkit-scrollbar-thumb {
+    border-radius: 7px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.8); 
+}
